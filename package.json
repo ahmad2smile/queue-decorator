@@ -1,6 +1,6 @@
 {
 	"name": "queue-decorator",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Queue Decorator (typescript) to Execute specific async method in Sequence",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -24,7 +24,7 @@
 		"url": "https://github.com/ahmad2smile/queue-decorator.git"
 	},
 	"files": [
-		"lib/**/*"
+		"dist/**/*"
 	],
 	"dependencies": {
 		"typescript": "^3.7.4"
