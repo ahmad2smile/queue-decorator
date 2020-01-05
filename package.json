@@ -1,6 +1,6 @@
 {
 	"name": "queue-decorator",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Queue Decorator (typescript) to Execute specific async method in Sequence",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
