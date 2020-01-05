@@ -1,16 +1,31 @@
 {
 	"name": "queue-decorator",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Queue Decorator (typescript) to Execute specific async method in Sequence",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
 		"build": "rm -rf dist && tsc",
+		"prepare": "npm run build",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"keywords": [
+		"typescript",
+		"decorator",
+		"async",
+		"sequence",
+		"concurrent"
+	],
+	"license": "MIT",
+	"author": "Ahmad <ahmad2smile@protonmail.com>",
+	"homepage": "https://github.com/ahmad2smile/queue-decorator",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ahmad2smile/queue-decorator.git"
+	},
+	"files": [
+		"lib/**/*"
+	],
 	"dependencies": {
 		"typescript": "^3.7.4"
 	}
